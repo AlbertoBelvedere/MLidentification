@@ -22,4 +22,4 @@ python train_bdt.py list_of_features --noweight
 ** info_parameters.py ** : run to get the parameters of the model.
 ** kmeans_reweight.py ** : reweight of the kinematical variables.
 ** mistag_rate.py ** : mistag rate and efficiency computation.
-** train_bdt.py ** : file to train the algorithm.
+**train_bdt.py** : file to train the algorithm.
