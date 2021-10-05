@@ -11,7 +11,7 @@ While to run without using weights:
 
 python train_bdt.py list_of_features --noweight
 
-** accuracy.py ** : algorithm's accuracy computation.
+** accuracy.py** : algorithm's accuracy computation.
 ** basic_plots.py ** : performance of the algorithm on the old dataset.
 ** compare_... ** : these files compare different types of training.
 ** correlation_matrix.py ** : correlation matrices computation.
