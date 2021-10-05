@@ -6,7 +6,7 @@ The training is performed using **train_bdt.py** which implements the XGBoost al
 
 python train_bdt.py list_of_features
 
-where list_of_features is a list of features presents in **features.py** .
+where list_of_features is a list of features presents in **features.py** .<br/>
 While to run without using weights:
 
 python train_bdt.py list_of_features --noweight
