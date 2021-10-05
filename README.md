@@ -12,15 +12,14 @@ While to run without using weights:
 python train_bdt.py list_of_features --noweight
 
 **accuracy.py** : algorithm's accuracy computation.<br/>
-**basic_plots.py** : performance of the algorithm on the old dataset.
-
-**compare_...** : these files compare the performance of different types of training.
-**correlation_matrix.py** : correlation matrices computation.
-**datasets.py** : choice of the dataset and its carachteristic.
-**eval_bdt.py** : evaluation of the algorithm performance trough the analysis of the ROC curve.
-**features.py** : lists of features that can be used to train the algorithm.
-**feature_imortance.py** : feature importance plot.
-**info_parameters.py** : run to get the parameters of the model.
-**kmeans_reweight.py** : reweight of the kinematical variables.
-**mistag_rate.py** : mistag rate and efficiency computation.
+**basic_plots.py** : performance of the algorithm on the old dataset.<br/>
+**compare_...** : these files compare the performance of different types of training.<br/>
+**correlation_matrix.py** : correlation matrices computation.<br/>
+**datasets.py** : choice of the dataset and its carachteristic.<br/>
+**eval_bdt.py** : evaluation of the algorithm performance trough the analysis of the ROC curve.<br/>
+**features.py** : lists of features that can be used to train the algorithm.<br/>
+**feature_imortance.py** : feature importance plot.<br/>
+**info_parameters.py** : run to get the parameters of the model.<br/>
+**kmeans_reweight.py** : reweight of the kinematical variables.<br/>
+**mistag_rate.py** : mistag rate and efficiency computation.<br/>
 **train_bdt.py** : file to train the algorithm.
