@@ -5,6 +5,7 @@ This directory contains the code necessary to train and evaluate the performance
 The training is performed using **train_bdt.py** which implements the XGBoost algorithm, trough **dataset.py** it is possible to choose the dataset and its charateristics, while using **features.py** one can choose the list of features to use in the training. First of all it's necessary to run **kmeans_reweight.py** to compute the weights to eliminate discrepancies between the distributions of the kinematic variables of electrons and fakes. Then, to train with a specific set of features:
 
 ```
+python kmeans_reweight.py
 python train_bdt.py list_of_features
 ```
 
